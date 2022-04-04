@@ -8,7 +8,9 @@
 </head>
 <body>
 <script>
-        var redurunYasi = prompt ("Yaşınızı giriniz")
+if (redurunYasi =="") {
+    document.write("Lütfen bir yaş giriniz")
+}
 
 if (redurunYasi >= 20 && redurunYasi <=79 ) {
 	document.write("Redur bey, yakışıklı olmanıza daha çok var şuan ki yaşınız " +redurunYasi)
@@ -19,7 +21,7 @@ else if (redurunYasi==80) {
 	document.write("Redur bey, artık yakışıklısınız çünkü 80 yaşındasınız")
 }
 
-else {
+else if (redurunYasi >=81  ) {
 	document.write("Redur bey, öldün")
 }
     </script>
