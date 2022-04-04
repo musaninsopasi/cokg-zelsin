@@ -1,78 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=”icon” href=”fas fa-heart” type=“image/x-icon”/>
-    <title> Cok güzelsin </title>
-      <style>  
-      :root {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    font-family: Aria, sans-serif;
-  }
-  
-  header {
-    padding: 24px;
-    position: sticky;
-    top: 0;
-    background: rgba(255, 255, 255, 0.6);
-  }
-  
-  nav a {
-    padding: 0 16px;
-    color: black;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: rgb(255, 208, 0);
-  }
-  
-  section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 36px;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  
-  #section-1 {
-    background: rgb(237, 100, 100);
-  }
-  
-  #section-2 {
-    background: rgb(125, 22, 177);
-  }
-  
-  #section-3 {
-    background: rgb(219, 48, 133);
-  }
-  </style>
-    
-  
+    <title> REDUR NE ZAMAN YAKIŞIKLI OLACAK </title>
 </head>
+
 <body>
-    <div class="page">
-        <header>
-          <nav>
-            <a href="#section-1">Tıkla</a>
-            <a href="#section-2">Ve </a>
-            <a href="#section-3">Mutlu ol </a>
-          </nav>
-        </header>
-      
-        <main>
-          <section id="section-1">Sen </section>
-          <section id="section-2">Çok güzel</section>
-          <section id="section-3">Bir insansın</section>
-        </main>
-      </div>
+    <script>
+        var redurunYasi = prompt ("Yaşınızı giriniz")
+
+if (redurunYasi >= 20 && redurunYasi <=79 ) {
+	document.write("Redur bey, yakışıklı olmanıza daha çok var şuan ki yaşınız " +redurunYasi)
+
+}
+
+else if (redurunYasi==80) {
+	document.write("Redur bey, artık yakışıklısınız çünkü 80 yaşındasınız")
+}
+
+else {
+	document.write("Redur bey, öldün")
+}
+
+    </script>
 </body>
 </html>
